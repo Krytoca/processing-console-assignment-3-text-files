@@ -8,12 +8,14 @@
  */
  
 void setup() {
-  int name = 0;
+  int customer = 0;
   int food = 1;
-  int drink = 2;
+  int beverage = 2;
   
   String lines[] = loadStrings("list.txt");
-
+  
+  print("Good evening", lines[customer]);
+  print(". Nice to meet you!");
 }
 
 void draw() {
