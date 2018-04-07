@@ -1,8 +1,9 @@
 /**
- * <program/assignment name>
- * by <Your Name>
+ * Text-files-assignment
+ * by Caleb Kryton
  * 
- * <Two sentence description of program>
+ * This is a project for Computer science 10 to experiment with 
+ * reading and processing text files
  * 
  */
  
