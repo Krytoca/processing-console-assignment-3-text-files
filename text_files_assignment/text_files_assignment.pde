@@ -39,7 +39,7 @@ void setup() {
   */
   print("Our daily specials are", Daily_Specials[soupsalad]);
   print(",", Daily_Specials[chicken]);
-  print(" as well as", Daily_Specials[seafood]);
+  print(", and", Daily_Specials[seafood]);
   /** 
    *Seperating the inputs on different lines for now while im new to this for visual clarity.
    */
