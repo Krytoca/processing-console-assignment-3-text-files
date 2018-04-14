@@ -35,7 +35,7 @@ void setup() {
   print("Good evening", Customer_Info[name]);
   print(". Nice to meet you!");
   println();
-  /** I'm using println as a blank space to make things simpler.
+  /** I'm using println throughout as a blank space to make things simpler.
   */
   print("Our daily specials are", Daily_Specials[soupsalad]);
   print(",", Daily_Specials[chicken]);
@@ -46,7 +46,14 @@ void setup() {
   print(",",Beverage_List [water]); 
   print(" and", Beverage_List [beer]);
   print(".");
-  
+  println();
+  print("I see that you are ordering", Customer_Info [food]);
+  print(" with a", Customer_Info [beverage]);
+  print(".");
+  print(" Good choice", Customer_Info [name]);
+  print(", I will be out in a minute with your", Customer_Info [food]);
+  print(" and your", Customer_Info [beverage]);
+  print(" right away.");
 }
 
 void draw() {
