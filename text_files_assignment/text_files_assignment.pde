@@ -15,8 +15,8 @@ void setup() {
   
   String Customer_Info[] = loadStrings("list.txt");
 /**
- *String variables are descriptive of text file
- *Group seperate integers of seperate strings
+ *String variables are descriptive of text file.
+ *Group seperate integers of seperate strings and group strings with them.
  */
   int soupsalad = 0;
   int chicken = 1;
@@ -24,7 +24,11 @@ void setup() {
   
   String Daily_Specials[] = loadStrings("specials.txt");
   
-  int 
+  int soda = 0;
+  int water = 1;
+  int juice = 2;
+  int beer = 3;
+  int milk = 4;
   
   String Beverage_List[] = loadStrings("drinks.txt")
   
