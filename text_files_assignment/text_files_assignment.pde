@@ -35,18 +35,27 @@ void setup() {
   print("Good evening", Customer_Info[name]);
   print(". Nice to meet you!");
   println();
-  /** I'm using println throughout as a blank space to make things simpler.
+  /** I'm using println throughout this project as a blank space to make things simpler.
   */
   print("Our daily specials are", Daily_Specials[soupsalad]);
   print(",", Daily_Specials[chicken]);
   print(" as well as", Daily_Specials[seafood]);
-  /** Seperating the inputs on different lines for now while im new to this for visual clarity.
-  */
-  print(" and we currently have three types of drinks on the menu:", Beverage_List[soda]);
-  print(",",Beverage_List [water]); 
-  print(" and", Beverage_List [beer]);
+  /** 
+   *Seperating the inputs on different lines for now while im new to this for visual clarity.
+   */
+  print(" and we currently have five types of drinks on the menu:", Beverage_List[soda]);
+  /** 
+   *I added all five beverages to the list because it bothered me that I didn't use them all initially
+   */
+  print(",", Beverage_List [water]); 
+  print(",", Beverage_List [beer]);
+  print(",", Beverage_List [juice]);
+  print(" and", Beverage_List [milk]);
   print(".");
   println();
+  /**
+  *Just seperating these lines with another println so its easier to look at.
+  */
   print("I see that you are ordering", Customer_Info [food]);
   print(" with a", Customer_Info [beverage]);
   print(".");
