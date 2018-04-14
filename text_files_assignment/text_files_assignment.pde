@@ -30,7 +30,7 @@ void setup() {
   int beer = 3;
   int milk = 4;
   
-  String Beverage_List[] = loadStrings("drinks.txt")
+  String Beverage_List[] = loadStrings("drinks.txt");
   
   print("Good evening", Customer_Info[name]);
   print(". Nice to meet you!");
@@ -42,7 +42,11 @@ void setup() {
   print(" as well as", Daily_Specials[seafood]);
   /** Seperating the inputs on different lines for now while im new to this for visual clarity.
   */
-  print(" and we currently have three types of drinks on the menu:",  
+  print(" and we currently have three types of drinks on the menu:", Beverage_List[soda]);
+  print(",",Beverage_List [water]); 
+  print(" and", Beverage_List [beer]);
+  print(".");
+  
 }
 
 void draw() {
