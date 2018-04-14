@@ -24,8 +24,21 @@ void setup() {
   
   String Daily_Specials[] = loadStrings("specials.txt");
   
+  int 
+  
+  String Beverage_List[] = loadStrings("drinks.txt")
+  
   print("Good evening", Customer_Info[name]);
   print(". Nice to meet you!");
+  println();
+  /** I'm using println as a blank space to make things simpler.
+  */
+  print("Our daily specials are", Daily_Specials[soupsalad]);
+  print(",", Daily_Specials[chicken]);
+  print(" as well as", Daily_Specials[seafood]);
+  /** Seperating the inputs on different lines for now while im new to this for visual clarity.
+  */
+  print(" and we currently have three types of drinks on the menu:",  
 }
 
 void draw() {
